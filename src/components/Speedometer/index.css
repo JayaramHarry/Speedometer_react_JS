@@ -1,0 +1,77 @@
+/* Write your CSS here */
+.bg-container {
+  background-color: #07080c;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.image {
+  height: 20%;
+  width: 60%;
+}
+@media screen and (min-width: 768px) {
+  .image {
+    min-height: 40%;
+    width: 80%;
+  }
+}
+
+.heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-style: italic;
+  font-size: 40px;
+}
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 60px;
+  }
+}
+.speed-limit {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: bold;
+}
+@media screen and (min-width: 768px) {
+  .speed-limit {
+    font-size: 40px;
+  }
+}
+.limit-instruction {
+  color: #cbd5e1;
+  font-size: 13px;
+  font-family: 'Roboto';
+}
+@media screen and (min-width: 768px) {
+  .limit-instruction {
+    font-size: 20px;
+  }
+}
+.button {
+  padding: 8px;
+  border-radius: 8px;
+  font-size: 10px;
+  margin-right: 15px;
+  cursor: pointer;
+  outline: none;
+}
+@media screen and (min-width: 786px) {
+  .button {
+    padding: 15px;
+    border-radius: 13px;
+    font-size: 15px;
+  }
+}
+.acceleration-button {
+  background-color: #0b69ff;
+  color: #ffffff;
+  border: 0px solid;
+}
+.brake-button {
+  background-color: transparent;
+  color: #94a3b8;
+  border: 1px solid #94a3b8;
+}
